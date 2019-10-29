@@ -34,7 +34,11 @@ public class MyMainUsingEmployee {
 		System.out.println("--------------------");
                 System.out.println("Extra line has been added");
 
-		System.out.println("123");
+		System.out.println("remote");
+		System.out.println("remote");
+		System.out.println("remote");
+		System.out.println("remote");
+		System.out.println("remote");
 
 		System.out.println("local");	
 		System.out.println("local");	
