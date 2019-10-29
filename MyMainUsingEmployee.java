@@ -36,7 +36,12 @@ public class MyMainUsingEmployee {
 
 		System.out.println("123");
 
-		System.out.println("xyz");		
+		System.out.println("local");	
+		System.out.println("local");	
+		System.out.println("local");	
+		System.out.println("local");	
+		System.out.println("local");	
+		System.out.println("local");		
 		
 		employeeList.stream()
 		.filter(employee->employee.getDept().equals("HR"))
