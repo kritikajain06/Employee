@@ -15,6 +15,7 @@ public class MyMainUsingEmployee {
 		employeeList.add(new Employee(106, "vishwas", "HR", "Manager", 33233));
 		employeeList.add(new Employee(107, "keshav", "HR", "Senior", 22333));
 		employeeList.add(new Employee(107, "suraj", "HR", "Senior", 76333));
+                
 		
 		employeeList.stream()
 		.filter(employee->employee.getDept().equals("HR"))
@@ -31,6 +32,8 @@ public class MyMainUsingEmployee {
 		}).forEach(System.out::println);
 		
 		System.out.println("--------------------");
+                System.out.println("Extra line has been added");
+
 		
 		
 		employeeList.stream()
@@ -43,5 +46,6 @@ public class MyMainUsingEmployee {
 		}).forEach(System.out::println);
 		
 		System.out.println("--------------------");
+		System.out.println("Another line added");
 	}
 }
