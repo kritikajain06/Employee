@@ -39,7 +39,6 @@ public class MyMainUsingEmployee {
 		System.out.println("remote");
 		System.out.println("remote");
 		System.out.println("remote");
-		System.out.println("remote");
 
 		System.out.println("xyz");		
 		
