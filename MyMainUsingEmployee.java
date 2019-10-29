@@ -33,13 +33,10 @@ public class MyMainUsingEmployee {
 		
 		System.out.println("--------------------");
                 System.out.println("Extra line has been added");
-<<<<<<< HEAD
-		System.out.println("123");
-=======
-		System.out.println("xyz");
->>>>>>> ed5ff2123737b9944c339bbcb5217d6cf4b02c53
 
-		
+		System.out.println("123");
+
+		System.out.println("xyz");		
 		
 		employeeList.stream()
 		.filter(employee->employee.getDept().equals("HR"))
